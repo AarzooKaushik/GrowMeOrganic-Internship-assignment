@@ -1,17 +1,23 @@
 .departments {
-  width: 100%;
-  padding: 100px;
+  margin: 60px 0;
+  background-color: #f7f5ef;
+  width: 400px;
+  padding: 70px 50px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   font-size: 18px;
   font-weight: 400;
 }
+.departments h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
 .departments label {
   margin-bottom: 20px;
 }
 .subDepartment {
-  margin-left: 45px;
+  margin-left: 55px;
 }
 li {
   list-style: none;
@@ -24,4 +30,10 @@ input {
   font-size: 25px;
   margin-right: 20px;
   cursor: pointer;
+}
+@media (max-width: 650px) {
+  .departments {
+    padding: 50px 10px;
+    width: 100%;
+  }
 }

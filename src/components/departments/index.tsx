@@ -86,6 +86,7 @@ const Department: React.FC = () => {
 
   return (
     <div className="departments">
+      <h1>Departments</h1>
       {departmentData.map(departmentItem => (
         <div key={departmentItem.department}>
           <span

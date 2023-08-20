@@ -15,8 +15,7 @@ const [enteredUserName, setEnteredUserName] = useState<string>("");
 
   useEffect(() => {
     const userDetails = localStorage.getItem("userDetails");
-    if (userDetails) {
-     
+    if (userDetails) { 
       navigate("/homepage");
     }
   }, [navigate]);

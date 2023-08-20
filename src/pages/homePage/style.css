@@ -1,0 +1,32 @@
+.home-container {
+  padding: 0 30px;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 20px 30px;
+}
+.navBar button {
+  font: inherit;
+  background-color: #ebb002;
+  border: 1px solid #ebb002;
+  color: #201d0f;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.navBar button:hover,
+.navBar button:active {
+  background-color: #ebc002;
+  border-color: #ebc002;
+}
+@media (max-width: 650px) {
+  .home-container {
+    padding: 0 10px;
+  }
+  .navBar {
+    padding: 10px;
+  }
+}
