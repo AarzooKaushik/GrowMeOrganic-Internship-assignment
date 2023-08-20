@@ -1,0 +1,27 @@
+.departments {
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.departments label {
+  margin-bottom: 20px;
+}
+.subDepartment {
+  margin-left: 45px;
+}
+li {
+  list-style: none;
+}
+
+input {
+  margin-right: 10px;
+}
+.department-toggle {
+  font-size: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
